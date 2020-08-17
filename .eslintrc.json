@@ -12,6 +12,7 @@
   },
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
+    "properties": "never",
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
     "import/extensions": [
