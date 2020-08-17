@@ -16,10 +16,9 @@
   },
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
-    "properties": "never",
-    // "camelcase": [2, {"properties": "never"}],
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
+    "@typescript-eslint/camelcase": "on",
     "import/extensions": [
       "error",
       "ignorePackages",
